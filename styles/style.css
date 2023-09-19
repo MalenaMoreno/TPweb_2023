@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&family=Manrope:wght@200;300;400;500;600;700;800&family=Reenie+Beanie&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+h5{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size:x-small;
+}
+
+.brand{
+    height: 80px;
+    width: 80px;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+}
+
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 50vw;
+}
+
+.principal-nav{
+    margin-left: 40px;
+}
+
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 50vw;
+
+}
+
+.ul-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 33vw;
+    justify-content:space-evenly ;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: small;
+}
+
+#look, #shop{
+    margin: 16px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* MAIN SECTION */
+
+/* inicio */
+
+.hero{
+    background-image: url(/images/hero-playa.png) ;
+    background-size: cover;
+    height: 100%;
+}
+
+.hero-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-right: 1%;
+}
+
+.name-img{
+    width: 20vw;
+    margin-right: 13%;
+}
+
+.h2-hero{
+    font-family: 'Reenie Beanie',cursive;
+    font-size: 4vw;
+}
+
+/* welcome */
+
+.main-menu{
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.destacados{
+    display: flex;
+    width: 50vw;
+    height: 30vw; 
+} 
+
+.main-img{
+    width: 0vw;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: .5s ease;
+}
+
+.main-img:hover{
+    width: 20vw;
+    opacity: 1;
+}
+
+.p-menu{
+    font-family:'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+.fav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:1% ;
+}
+
+.hearts{
+    color: red;
+}
+
+.view-all{
+    padding-top: 3%;
+}
+.view-all:hover{
+    border-bottom: solid black;
+}
+
+/* products */
+
+.h2-products, .h3-products {
+    font-family: 'Manrope', sans-serif;
+    padding: 10px;
+    font-weight: 700;
+}
+
+
+.product-name, .price{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.product-name{
+    font-weight: 600;
+
+}
+
+.products-div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 15px;
+}
+
+.img-products{
+    width: 20vw;
+    border-radius: 5%;
+}
+
+.div-img{
+    overflow: hidden;
+    border-radius: 5%;
+    position: relative;
+}
+
+
+.second-img-products{
+    width: 20vw;
+    border-radius: 5%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.second-img-products:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.products, .main-contact, .main-menu{
+    background-color: #f7f7f5
+}
+
+/* contact */
+
+.main-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    font-weight: 600;
+}
+
+#mix-img{
+    width: 30vw;
+    border-radius: 5%;
+}
+
+.img-contact-page , .form-contact{
+    padding: 6vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.div-form{
+    padding: 5%;
+}
+
+input, select, textarea{
+    width: 25vw;
+    height: 2vw;
+}
+
+textarea{
+    height: 5vw;
+}
+
+label, #button-send{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+#button-send{
+    background-color: #f7f7f5;
+    border: black solid;
+    border-radius: 10%;
+    padding: 3%;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.p-footer, .h3-footer {
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    padding: 0;
+}
+
+.h3-footer{
+    text-align: center;
+}
+
+.p-footer{
+    font-size: 12px;
+}
+
+#img-medios{
+    width: 20vw;
+    padding-top: 0.5vw;
+}
+
+
+#img-brand{
+    width: 5vw;
+    padding-top: 2.5vw ;
+    padding-bottom: 2.5vw;
+}
+
+#copyright{
+    font-size: x-small;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 0.3vw;
+}
+
+.brand-copyright-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-footer, .payment-footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vw;
+}
+
+.contact-footer{
+    text-align:left;
+}
+
+.payment-footer{
+    align-items: center;
+}

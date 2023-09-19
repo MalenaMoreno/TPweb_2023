@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEST END - Contacto</title>
+    <!--Link al CSS-->
+    <link rel="stylesheet" href="styles/style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+
+        <div class="top-header">
+            <h5> ENVIOS A TODO EL PAÍS <i class="fa-solid fa-truck"></i> </h5>
+        </div>
+        
+        <div class="main-header">
+
+            <div class="left-nav">
+                <img src="images/logo_circulo.png" alt="logo" class="brand">
+                <nav class="principal-nav">
+                    <ul class="ul-nav">
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="products.html">PRODUCTOS</a></li>
+                        <li><a href="contact.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+ 
+            <div class="right-nav">     
+                <a href="#"><i class="fa-solid fa-magnifying-glass" id="look"></i></a></li>
+                <a href="#"><i class="fa-solid fa-bag-shopping" id="shop"></i></a></li>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main-contact">
+
+        <section class="form-contact"> 
+            <form action="mailto:malenamoreno514@gmail.com">
+                    <div class="div-form">
+                        <label for="fullname">Nombre y Apellido</label><br>
+                        <input type="text" id="fullname" name="fullname" placeholder="Juan Pérez" required>
+                    </div>
+                    <div class="div-form">
+                        <label for="email">Correo Electronico</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="div-form">
+                        <label for="phone-number">Whatsapp</label><br>
+                        <input type="number" name="phone-number" id="phone-number" minlength="10">
+                    </div>
+                    <div class="div-form">
+                        <label for="comment">Consulta/Comentario</label><br>
+                        <textarea name="comment" id="comment" cols="30" rows="10" maxlength="5000"required></textarea>
+                    </div>
+                    <div class="div-form">
+                        <label for="source">Cómo nos conociste?</label><br>
+                            <select name="source" id="source">
+                                <option value="" selected>Seleccione una opción</option>
+                                <option value="family-friends">Amigo/a</option>
+                                <option value="instagram">Instagram</option>
+                                <option value="tiktok">TikTok</option>
+                                <option value="others">Otros</option>
+                            </select>        
+                    </div>
+                    <div class="div-form">
+                        <button type="submit" id="button-send"> ENVIAR </button>
+                    </div>
+            </form>
+        </section>
+
+        <section class="img-contact-page">
+            <img src="images/mix.jpeg" alt="mix" id="mix-img">
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="contact-footer">
+            <h3 class="h3-footer">CONTACTO</h3>
+            <p class="p-footer"> <i class="fa-regular fa-envelope"> </i> westendconsultas@gmail.com </p>
+            <p class="p-footer"> <i class="fa-brands fa-whatsapp"></i> +54 9 11 5707 4563 </p>
+            <a href="https://www.instagram.com/westend._/"><p class="p-footer"> <i class="fa-brands fa-instagram"> </i> westend._ </p></a>
+            <a href="https://www.tiktok.com/westend._/"><p class="p-footer"> <i class="fa-brands fa-tiktok"> </i> westend._ </p></a>
+        </div>
+
+        <div class="brand-copyright-footer">
+            <img src="images/logo_circulo.png" alt="brand" id="img-brand">
+            <p class="p-footer" id="copyright">Copyright West End - 2023. Todos los derechos reservados</p>
+        </div>
+
+        <div class="payment-footer">
+            <h3 class="h3-footer">MEDIOS DE PAGO Y ENVIO</h3>
+            <img src="images/Imagen-medios.png" alt="medios" id="img-medios">
+        </div>
+    
+    </footer>
+    
+</body>
+</html>
