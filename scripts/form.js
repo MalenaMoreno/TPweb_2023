@@ -26,14 +26,6 @@ form.addEventListener('submit', function(event){
         return
     }
 
-    // const consultas = {
-    //     name: fullname,
-    //     email: email,
-    //     phoneNumber: phoneNumber,
-    //     source: source,
-    //     comment: comment,
-    // }
-
     console.log("Nombre:", fullname);
     console.log("Correo:", email);
     console.log("Número de teléfono:", phoneNumber);
