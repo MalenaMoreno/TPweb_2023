@@ -42,6 +42,7 @@ h5{
     margin-left: 40px;
 }
 
+
 .right-nav{
     display: flex;
     flex-direction: row;
@@ -159,6 +160,7 @@ a{
 .view-all{
     padding-top: 3%;
 }
+
 .view-all:hover{
     border-bottom: solid black;
 }
@@ -296,7 +298,7 @@ label, #button-send{
     padding: 3%;
 }
 
-/* FOOTER */
+/* Footer */
 
 footer{
     background-color: black;
@@ -304,11 +306,12 @@ footer{
     flex-direction: column;
 }
 
-.p-footer, .h3-footer {
+.contact-footer ul li a, .copyright-footer div p, .h3-footer {
     color: white;
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
     padding: 0;
+    font-size: 12px
 }
 
 .principal-footer{
@@ -334,14 +337,7 @@ footer{
 
 .h3-footer{
     text-align: center;
-    /* font-size: 1.5vw; */
     font-size: 14px ;
-}
-
-.p-footer{
-    /* font-size: 12px; */
-    /* font-size: 1vw; */
-    font-size: 12px ;
 }
 
 .copyright-footer{
@@ -367,7 +363,6 @@ footer{
 }
 
 #copyright{
-    /* font-size: 0.7vw; */
     font-size: 9px;
     padding-top: 2vw;
     padding-left: 2vw;
@@ -397,26 +392,29 @@ footer{
         flex-direction: column;
         position: absolute;
         z-index: 1;
-        top: 100px;
+        top: 17%;
         left: 0;
         background-color: rgb(255, 255, 255);
         width: 100vw;
         gap: 1rem;
-        /* width: 50%;
-        height: 100%; */
-        /* border-right: #ccc 1px solid; */
         opacity: 0.9;
         padding: 30px;
-        /* transform: translateX(-500px); */
-        /* transition: transform 0.5s ease-in-out */
-    }
-
-    .principal-nav ul{
         border-top: black solid;
     }
 
     .ul-nav{
         padding: 18px;
+    }
+
+    /* Index */
+
+    .destacados{
+        width: 60vw;
+        height: 40vw;
+    }
+
+    .p-menu{
+        font-size: 2.5vw;
     }
 
     /* Contact */
